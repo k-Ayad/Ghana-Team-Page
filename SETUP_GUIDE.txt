@@ -1,0 +1,181 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║     COPTIC ORTHODOX CHURCH GHANA - WEBSITE SETUP GUIDE        ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 WHAT YOU'VE RECEIVED:
+─────────────────────────────────────────────────────────────────
+✓ index.html        - Main website page
+✓ styles.css        - All styling
+✓ script.js         - Interactive features
+✓ assets/           - Images folder
+  ├── map.jpg       - Your church map
+  ├── ghana-flag.png - Ghana flag icon
+  └── compass.png   - Compass icon
+✓ README.md         - Detailed documentation
+✓ SETUP_GUIDE.txt   - This file
+
+═══════════════════════════════════════════════════════════════════
+
+🚀 STEP-BY-STEP SETUP (5 Minutes):
+
+1️⃣  BEFORE YOU START - CUSTOMIZE THE LINKS:
+   ────────────────────────────────────────────────────────────
+   Open index.html in a text editor and update:
+   
+   A. Facebook Link (appears twice):
+      Find: https://www.facebook.com/CopticOrthodoxChurchGhana
+      Replace with: YOUR ACTUAL FACEBOOK PAGE URL
+   
+   B. Instagram Link (appears twice):
+      Find: https://www.instagram.com/copticchurchghana
+      Replace with: YOUR ACTUAL INSTAGRAM PAGE URL
+   
+   C. YouTube Video:
+      Find: https://www.youtube.com/embed/dQw4w9WgXcQ
+      Replace 'dQw4w9WgXcQ' with YOUR VIDEO ID
+      (Your video URL: youtube.com/watch?v=ABC123 → use ABC123)
+
+2️⃣  UPLOAD TO WEB HOSTING:
+   ────────────────────────────────────────────────────────────
+   Option A - FREE HOSTING (Recommended for beginners):
+   
+   • GitHub Pages (github.com):
+     1. Create free account
+     2. Create new repository named "coptic-ghana"
+     3. Upload all files (keep assets folder structure)
+     4. Enable GitHub Pages in repository settings
+     5. Your URL: username.github.io/coptic-ghana
+   
+   • Netlify (netlify.com):
+     1. Sign up free
+     2. Drag and drop all files
+     3. Get instant URL: yoursite.netlify.app
+   
+   Option B - YOUR EXISTING HOSTING:
+   
+   • Use FTP/File Manager to upload all files
+   • Keep the assets folder in the same directory as index.html
+   • URL will be: yourdomain.com/yourfolder
+
+3️⃣  CREATE QR CODE:
+   ────────────────────────────────────────────────────────────
+   • Go to: qr-code-generator.com (or any QR generator)
+   • Enter your website URL
+   • Download the QR code image
+   • Print it (recommended size: 3x3 inches minimum)
+
+4️⃣  TEST EVERYTHING:
+   ────────────────────────────────────────────────────────────
+   ✓ Scan QR code with your phone
+   ✓ Click all social media links
+   ✓ Click the game link
+   ✓ Watch the video
+   ✓ Check on different devices
+
+═══════════════════════════════════════════════════════════════════
+
+⚠️  IMPORTANT REMINDERS:
+
+🔴 MUST DO:
+   • Update Facebook link
+   • Update Instagram link
+   • Update YouTube video
+   • Keep assets folder with HTML file
+
+🟡 RECOMMENDED:
+   • Use short, memorable URL
+   • Test QR code before mass printing
+   • Check website on mobile first
+   • Share with team before going public
+
+═══════════════════════════════════════════════════════════════════
+
+📱 WEBSITE FEATURES:
+
+✨ Visitor Experience:
+   1. Scans QR code
+   2. Beautiful welcome page opens
+   3. Sees Ghana flag and mission info
+   4. Can follow on Facebook/Instagram
+   5. Learns about 9 churches
+   6. Watches mission video
+   7. Plays Coptic Heritage game
+   8. Gets excited to join the team!
+
+═══════════════════════════════════════════════════════════════════
+
+🎨 WHAT'S INCLUDED:
+
+✓ Mobile-first responsive design
+✓ Smooth animations and transitions
+✓ Interactive social media cards
+✓ Church location showcase
+✓ Embedded video player
+✓ Game integration
+✓ Fast loading (<1 second)
+✓ Works offline after first load
+✓ Beautiful color scheme matching Coptic tradition
+
+═══════════════════════════════════════════════════════════════════
+
+💡 PRO TIPS:
+
+1. QR Code Placement:
+   • Church bulletin
+   • Welcome desk
+   • Social media posts
+   • Email signatures
+   • Event materials
+
+2. Promote the website:
+   • Share on Facebook/Instagram
+   • Announce during service
+   • Include in newsletters
+   • Add to email footer
+
+3. Keep it updated:
+   • Update church info regularly
+   • Add new videos
+   • Share recent photos
+   • Update event information
+
+═══════════════════════════════════════════════════════════════════
+
+❓ NEED HELP?
+
+Common Issues:
+─────────────
+• Images not showing?
+  → Make sure assets folder is uploaded
+  → Check file paths are correct
+
+• Links not working?
+  → Verify you updated the URLs
+  → Check for typos in links
+
+• QR code not scanning?
+  → Print larger (min 3x3 inches)
+  → Ensure good contrast
+  → Test with different phones
+
+═══════════════════════════════════════════════════════════════════
+
+🙏 PRAYER:
+
+May this website be a blessing to all who visit, drawing them closer
+to Christ and inspiring them to join the beautiful mission of the
+Coptic Orthodox Church in Ghana.
+
+"And whatever you do, whether in word or deed, do it all in the name
+of the Lord Jesus, giving thanks to God the Father through him."
+- Colossians 3:17
+
+═══════════════════════════════════════════════════════════════════
+
+Built with love for the Coptic Orthodox Church Ghana Mission ❤️🇬🇭
+
+For questions or support, refer to the detailed README.md file.
+
+═══════════════════════════════════════════════════════════════════

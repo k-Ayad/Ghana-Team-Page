@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customization Checklist - Coptic Church Ghana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #8B4513, #2C1810);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .checklist {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .item {
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #DAA520;
+            background: #FFF8DC;
+            border-radius: 5px;
+        }
+        .item h3 {
+            margin: 0 0 10px 0;
+            color: #8B4513;
+        }
+        .item code {
+            background: #2C1810;
+            color: #DAA520;
+            padding: 3px 8px;
+            border-radius: 3px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        .important {
+            background: #ffebee;
+            border-left-color: #c62828;
+        }
+        .optional {
+            background: #e3f2fd;
+            border-left-color: #1976d2;
+        }
+        .checkbox {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .step {
+            font-weight: bold;
+            color: #8B4513;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🇬🇭 Coptic Orthodox Church Ghana</h1>
+        <h2>Website Customization Checklist</h2>
+    </div>
+
+    <div class="checklist">
+        <h2>✅ Before Going Live - Customize These:</h2>
+        
+        <div class="item important">
+            <h3><input type="checkbox" class="checkbox"> <span class="step">1.</span> Facebook Page URL</h3>
+            <p><strong>File:</strong> index.html</p>
+            <p><strong>Find:</strong> <code>https://www.facebook.com/CopticOrthodoxChurchGhana</code></p>
+            <p><strong>Replace with:</strong> Your actual Facebook page URL</p>
+            <p><strong>Appears:</strong> 2 times in the file</p>
+        </div>
+
+        <div class="item important">
+            <h3><input type="checkbox" class="checkbox"> <span class="step">2.</span> Instagram Account URL</h3>
+            <p><strong>File:</strong> index.html</p>
+            <p><strong>Find:</strong> <code>https://www.instagram.com/copticchurchghana</code></p>
+            <p><strong>Replace with:</strong> Your actual Instagram account URL</p>
+            <p><strong>Appears:</strong> 2 times in the file</p>
+        </div>
+
+        <div class="item important">
+            <h3><input type="checkbox" class="checkbox"> <span class="step">3.</span> Mission Video</h3>
+            <p><strong>File:</strong> index.html</p>
+            <p><strong>Find:</strong> <code>https://www.youtube.com/embed/dQw4w9WgXcQ</code></p>
+            <p><strong>Replace:</strong> Change <code>dQw4w9WgXcQ</code> to your YouTube video ID</p>
+            <p><strong>How to get video ID:</strong> If your video URL is <code>youtube.com/watch?v=ABC123</code>, use <code>ABC123</code></p>
+        </div>
+
+        <div class="item optional">
+            <h3><input type="checkbox" class="checkbox"> <span class="step">4.</span> Church Locations (Optional)</h3>
+            <p><strong>File:</strong> index.html</p>
+            <p><strong>Section:</strong> Churches Section</p>
+            <p><strong>What to do:</strong> Update "Location TBD" with actual addresses if available</p>
+        </div>
+
+        <div class="item">
+            <h3><input type="checkbox" class="checkbox"> <span class="step">5.</span> Upload to Hosting</h3>
+            <p><strong>What to upload:</strong></p>
+            <ul>
+                <li>index.html</li>
+                <li>styles.css</li>
+                <li>script.js</li>
+                <li>assets/ folder (with all images inside)</li>
+            </ul>
+            <p><strong>Recommended free hosting:</strong></p>
+            <ul>
+                <li>GitHub Pages: github.com</li>
+                <li>Netlify: netlify.com</li>
+                <li>Vercel: vercel.com</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3><input type="checkbox" class="checkbox"> <span class="step">6.</span> Generate QR Code</h3>
+            <p><strong>Tool:</strong> qr-code-generator.com (or any QR generator)</p>
+            <p><strong>Input:</strong> Your website URL (after uploading)</p>
+            <p><strong>Size:</strong> Minimum 3x3 inches for printing</p>
+        </div>
+
+        <div class="item">
+            <h3><input type="checkbox" class="checkbox"> <span class="step">7.</span> Test Everything</h3>
+            <ul>
+                <li>Scan QR code with phone ✓</li>
+                <li>Click Facebook link ✓</li>
+                <li>Click Instagram link ✓</li>
+                <li>Play the video ✓</li>
+                <li>Click game link ✓</li>
+                <li>Test on different phones ✓</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="background: white; padding: 30px; border-radius: 10px; margin-top: 30px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <h2 style="color: #8B4513;">📁 Files Structure</h2>
+        <div style="text-align: left; background: #f5f5f5; padding: 20px; border-radius: 5px; font-family: monospace;">
+            website/<br>
+            ├── index.html<br>
+            ├── styles.css<br>
+            ├── script.js<br>
+            ├── assets/<br>
+            │   ├── map.jpg<br>
+            │   ├── ghana-flag.png<br>
+            │   └── compass.png<br>
+            ├── README.md<br>
+            ├── SETUP_GUIDE.txt<br>
+            └── CUSTOMIZATION_CHECKLIST.html (this file)
+        </div>
+        <p style="margin-top: 20px; color: #666;">
+            Keep this structure when uploading to your hosting!
+        </p>
+    </div>
+
+    <div style="background: #8B4513; color: white; padding: 20px; border-radius: 10px; margin-top: 30px; text-align: center;">
+        <p style="font-size: 1.2em; margin: 0;">
+            🙏 May this website bless many and draw them to Christ!
+        </p>
+    </div>
+</body>
+</html>
